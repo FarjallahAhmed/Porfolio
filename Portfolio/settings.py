@@ -30,7 +30,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'about.app.AboutConfig',
+    'about.apps.AboutConfig',
+    'achievement.apps.AchievementConfig',
+    'experience.apps.ExperienceConfig',
+    'project.apps.ProjectConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
